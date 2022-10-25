@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            
+            width: 100%;
+
+            display: grid;
+            grid-template-columns: 2em auto 1fr;
+        }
+        .items-wide, .items-long {
+            border: 1px solid;
+            margin: 3px;
+        }
+        .items-wide {
+            width: 400px;
+            height: 200px;
+        }
+        .items-long {
+            width: 200px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="items-wide"></div>
+            <div class="items-long"></div>
+            <div class="items-wide"></div>
+            <div class="items-long"></div>
+            <div class="items-long"></div>
+            <div class="items-wide"></div>
+            <div class="items-long"></div>
+            <div class="items-wide"></div>
+        </div>
+    </section>
+</body>
+</html>
